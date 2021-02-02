@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adify</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/db006bf474.js"></script>
+
+<style>
+    body{
+        margin:0;
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .main{
+        min-height: 100vh;
+        padding-top: 20vh;
+    }
+    .dataHead{
+        z-index: 6;
+
+    }
+    .dataHead h5{
+        text-align: justify;
+        font-size: 1.7vw;
+
+    }
+    .dataHead h1{
+        font-size: 4vw;
+        font-family: 'Carter One', cursive;
+    }
+    .dataHead span{
+        color: rgb(237, 41, 57);
+    }
+    .gifsHead{
+        position: absolute;
+        top: 40vh;
+        z-index: 5;
+    }
+    .text-ir{
+        color: rgb(237, 41, 57);
+        font-family: 'Carter One', cursive;
+    }
+    .font-ir{
+        font-family: 'Carter One', cursive;
+    }
+    
+    .onlymob{
+            display: none;
+        }
+        .socialIcons i{
+            font-size: 4em;
+        }
+    @media only screen and (max-width: 720px) {
+        .main{
+            padding-top: 13vh;
+        }
+        .dataHead h5{
+        text-align: justify;
+        font-size:4vw;
+
+        }
+        .dataHead h1{
+            font-size: 8vw;
+            font-family: 'Carter One', cursive;
+        }
+        .gifsHead img{
+            display: none;
+        }
+        nav{
+            background: rgba(0, 0, 0, .8);
+        }
+        nav:hover{
+            background: rgba(0, 0, 0, .95);
+            transition: background 1s ease-in-out;
+
+        }
+        .onlymob{
+            display: block;
+        }
+
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  fixed-top">
+        <a class="navbar-brand text-ir" href="#"> ADIFY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-ir mr-5">Explore</span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-ir" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-danger my-2 my-sm-0 pr-4 pl-4 mr-2 font-ir" type="submit">Contact Us</button>
+            <button class="btn btn-outline-danger my-2 my-sm-0 pr-4 pl-4 text-ir" type="submit">About Us</button>
+          </form>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <div class="row main">
+            <div class="dataHead col-md-6 offset-md-3">
+                <h1>We develope <span>Beautiful</span>, <span>Meaningful</span> and <span>Useful</span> things for <span>People</span> .</h1>
+                <h5>Today’s businesses and products require elastic creative ideas that allow us to blur the lines between product, marketing, content, and experiences.</h5>
+                
+                <button class="btn btn-danger my-2 my-sm-0 pr-4 pl-4 mr-2 font-ir btn-lg" type="submit">Quick Chat</button>
+                <button class="btn btn-outline-danger my-2 my-sm-0 pr-4 pl-4 text-ir btn-lg" type="submit">View All Products</button>
+                <img src="./images/gif1-2.gif" class="onlymob" width="100%" alt="">
+            </div>
+            <div class="d-flex gifsHead col-md-12">
+                <div class="col-md-4">
+                    <img src="./images/gif.gif"  width="90%" alt="">
+                </div>
+                <div class="col-md-4 offset-md-3">
+                    <img src="./images/gif2-2.gif" width="100%" alt="">
+                </div>
+            </div>
+            <!-- <div class="container gifs">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="./images/gif.gif" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./images/gif2.gif" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./images/gif3.gif" width="100%" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./images/gif4.gif" width="100%" alt="">
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="row main2">
+            <div class="col-md-8 offset-md-2">
+
+                <div class="col-md-12 socialIcons text-ir text-center d-flex">
+                    <div class="col-2">
+                        <i class="fa fa-whatsapp " aria-hidden="true"></i>
+                    </div>
+                    <div class="col-2">
+                        <i class="fa fa-twitter " aria-hidden="true"></i>
+                    </div>
+                    <div class="col-2">
+                        <i class="fa fa-instagram " aria-hidden="true"></i>
+                    </div>
+                    <div class="col-2">
+                        <i class="fa fa-facebook " aria-hidden="true"></i>
+                    </div>
+                    <div class="col-2">
+                        <i class="fa fa-envelope " aria-hidden="true"></i>
+                    </div>
+                    <div class="col-2">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
