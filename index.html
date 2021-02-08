@@ -14,7 +14,7 @@
     body{
         margin:0;
         padding: 0;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
     .main{
         min-height: 100vh;
@@ -48,12 +48,46 @@
     .font-ir{
         font-family: 'Carter One', cursive;
     }
-    
     .onlymob{
             display: none;
-        }
+    }
     .socialIcons i{
         font-size: 4em;
+    }
+    .main2{
+        padding-top: 10vh;
+        min-height: 100vh;
+    }
+    .main2 h1{
+        font-family: 'Carter One', cursive;
+        font-size: 2.5vw;
+    }
+    .main3{
+        padding-top: 30vh;
+        min-height: 100vh;
+    }
+    .gifsMain3{
+        position: absolute;   
+        width: 45%;
+        margin-left: 55%;
+        top: 0;
+        z-index: 5;
+    }
+    h1{
+        z-index: 6;
+    }
+
+    .nav2{
+        background: rgba(237, 41, 57,.9);
+        color: snow;
+    }
+    .nav2 .text-ir{
+        color: snow;
+
+    }
+    .nav2 .btn-danger{
+        background: snow;
+        color: rgb(237, 41, 57);;
     }
     @media only screen and (max-width: 720px) {
         .main{
@@ -79,19 +113,39 @@
             transition: background 1s ease-in-out;
 
         }
+        .main2{
+            padding-top:2%;
+        }
+        .main2 h1{
+        font-family: 'Carter One', cursive;
+        font-size: 6vw;
+    }
         .onlymob{
             display: block;
         }
         .socialIcons i{
             font-size: 2em;
         }
-        
+        .main3{
+        padding-top: 10vh;
+        min-height: 100vh;
+    }
+        .gifsMain3{
+            position: absolute;   
+            width: 90%;
+            margin-left: 5%;
+            top: 30vh;
+            z-index: 5;
+         }
+        .footer h5{
+            display: none;
+        }
 
     }
 </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg  fixed-top">
+    <nav class="navbar navbar-expand-lg  nav fixed-top" id="nav">
         <a class="navbar-brand text-ir" href="#"> ADIFY</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon text-ir mr-5">Explore</span>
@@ -115,8 +169,8 @@
                 <h1>We develope <span>Beautiful</span>, <span>Meaningful</span> and <span>Useful</span> things for <span>People</span> .</h1>
                 <h5>Today’s businesses and products require elastic creative ideas that allow us to blur the lines between product, marketing, content, and experiences.</h5>
                 
-                <button class="btn btn-danger my-2 my-sm-0 pr-4 pl-4 mr-2 font-ir btn-lg" type="submit">Quick Chat</button>
-                <button class="btn btn-outline-danger my-2 my-sm-0 pr-4 pl-4 text-ir btn-lg" type="submit">View All Products</button>
+                <button class="btn btn-danger my-2 my-sm-0 pr-4 pl-4 mr-2 font-ir btn-lg" type="submit">View Plans</button>
+                <button class="btn btn-outline-danger my-2 my-sm-0 pr-4 pl-4 text-ir btn-lg" type="submit">Political Campaigns</button>
                 <img src="./images/gif1-2.gif" class="onlymob" width="100%" alt="">
             </div>
             <div class="d-flex gifsHead col-md-12">
@@ -144,10 +198,20 @@
                 </div>
             </div> -->
         </div>
-        <div class="row main2">
-            <div class="col-md-8 offset-md-2">
-
-                <div class="col-md-12 socialIcons text-ir text-center d-flex">
+        <div class="row main2 mt-5">
+            <div class="col-md-10 offset-md-1">
+                <div class="row flex-row-reverse">
+                    <div class="col-md-8 pt-5">
+                        <h1 class="text-justify mt-5"> &nbsp; &nbsp; &nbsp; &nbsp; <span class="text-ir">Well,</span> We Don’t <span class="text-ir">Need</span> to Tell You Where to
+                            <span class="text-ir"> Find Us</span>. You May or May Not be  <span class="text-ir"> Familiar </span> With it But I’m  
+                            <span class="text-ir"> Sure </span> You Have  <span class="text-ir">Heard</span> of It. Here are The  
+                            <span class="text-ir">Icons</span> That Will <span class="text-ir">Take</span> you <span class="text-ir">Directly </span> to Our <span class="text-ir">Page</span>.</h1>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/gif7.gif" width="100%" alt="">
+                    </div>
+                </div>  
+                <div class="col-md-12 socialIcons text-ir text-center d-flex mt-3">
                     <div class="col-2">
                         <i class="fa fa-whatsapp " aria-hidden="true"></i>
                     </div>
@@ -170,12 +234,85 @@
 
             </div>
         </div>
+        <div class="main3 container-fluid">
+            <div class="row dataHead">
+                <div class="col-md-10 offset-md-1">
+                    <h1 class="col-md-9"> We help <span> People </span> to find <span> Target </span>  audience and <span> promote </span> their business.  </h1>
+                    <img src="./images/gif5-2.gif" class="gifsMain3" alt="">
+                </div> 
+            </div>               
+        </div>
+        
+
+    </div>
+    <div class="footer container-fluid pt-5 bg-dark text-light mb-0 pb-5">
+        <h1 class="col-md-12 text-center mb-5">Follow Us</h1>
+        <div class="col-md-10 offset-md-1 text-light socialIcons text-ir text-center d-flex pb-5">
+            <div class="col-2">
+                <i class="fa fa-whatsapp " aria-hidden="true"></i>
+                <h5>Whatsapp</h5>
+            </div>
+            <div class="col-2">
+                <i class="fa fa-twitter " aria-hidden="true"></i>
+                <h5>Twitter</h5>
+            </div>
+            <div class="col-2">
+                <i class="fa fa-instagram " aria-hidden="true"></i>
+                <h5>Instagram</h5>
+            </div>
+            <div class="col-2">
+                <i class="fa fa-facebook " aria-hidden="true"></i>
+                <h5>Facebook</h5>
+            </div>
+            <div class="col-2">
+                <i class="fa fa-envelope " aria-hidden="true"></i>
+                <h5>Email</h5>
+            </div>
+            <div class="col-2">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <h5>Mobile No.</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 offset-md-1 mt-5">
+                <h1> +91 88569 08790 </h1>
+                <h4 class="text-justify"> &nbsp; &nbsp;&nbsp; &nbsp; In case if you want to get in touch with us over a call, then leave us a message on any of the given platforms or dial-up.
+                </h4>
+            
+            </div>
+            <div class="col-md-4 offset-md-2 mt-5">
+                <h1>Adify.com</h1>
+                <h4 class="text-justify ">
+                    Copyright © 2021 Adify
+                        All rights reserved. For company information
+                        and other legal bits, see our 
+                        <em><a href="#" class="text-ir" title="Terms of Service" target="_blank">Terms of Service</a></em> page.<br class="u-mobile" />
+                        <!-- We’re using <em><a href="" class="text-ir" title="Cookie Policy" target="_blank">cookies</a></em>, hope that’s cool. -->
+
+                </h4>
+            </div>
+        </div>
     </div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+    $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
 
+     //>=, not <=
+    if (scroll >= 50) {
+        //clearHeader, not clearheader - caps H
+        var element = document.getElementById("nav");
+        element.classList.add("nav2");
+    }
+    if (scroll <= 50) {
+        var element = document.getElementById("nav");
+        element.classList.remove("nav2");
+    }
+}); //missing );
+</script>
 </body>
 </html>
